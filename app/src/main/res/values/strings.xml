@@ -1,3 +1,88 @@
 <resources>
-    <string name="app_name">in2000_project</string>
+    <string name="app_name">Portal Space</string>
+
+    <!-- Home Screen -->
+    <string name="home_screen_title">Portal Space App</string>
+    <string name="home_screen_route">homeScreen</string>
+    <string name="start_button">Start</string>
+
+    <!-- Input Screen -->
+    <string name="input_screen_title">Input</string>
+    <string name="input_screen_route">inputScreen</string>
+    <string name="check_forecast_button">Check Weather Forecast</string>
+    <string name="latitude_text_field_label">Enter latitude</string>
+    <string name="longitude_text_field_label">Enter longitude</string>
+    <string name="altitude_text_field_label">Enter altitude (m)</string>
+
+    <!-- Map Screen -->
+    <string name="map_screen_title">Map</string>
+    <string name="map_screen_route">mapScreen</string>
+    <string name="map_screen_floating_button_text">Show Input Field</string>
+    <string name="map_screen_floating_button_description">Input Latitude, longitude and altitude"</string>
+    <string name="marker_title">Selected Location</string>
+    <string name="lat_lng_description">Lat: %1$s, Lng: %2$s</string>
+
+    <!-- Weather Forecast Screen -->
+    <string name="weather_forecast_screen_title">Weather Forecast</string>
+    <string name="weather_forecast_screen_route">weatherForecastScreen</string>
+    <string name="weather_forecast_screen_route_args">/{latitude}/{longitude}/{altitude}</string>
+    <string name="location_info_template">Latitude: %1\$s Longitude: %2\$s Altitude: %3\$sm</string>
+    <string name="filter_switch_text">Filter away red times</string>
+    <string name="error_view_text">Error loading data</string>
+    <string name="unknown_date">Unknown Date</string>
+    <string name="ground_wind_label">Ground Wind Speed</string>
+    <string name="humidity_amount">Humidity Amount</string>
+    <string name="gust_wind_label">Gust Wind Speed</string>
+    <string name="shear_wind_label">Shear Wind Speed</string>
+    <string name="shear_unit">m/s</string>
+    <string name="max_air_wind_label">Max Air Wind Speed</string>
+    <string name="max_air_wind_unit">m/s</string>
+    <string name="cloud_coverage_high_label">Cloud Coverage High</string>
+    <string name="cloud_coverage_medium_label">Cloud Coverage Medium</string>
+    <string name="cloud_coverage_low_label">Cloud Coverage Low</string>
+    <string name="fog_area_fraction">Fog Area Fraction</string>
+    <string name="precipitation_amount">Precipitation Amount</string>
+    <string name="status_icon_description">Status Icon</string>
+    <string name="detail_label_template">%1$s: %2$s</string>
+    <string name="detail_content_description_template">%1$s Status</string>
+    <string name="not_available">N/A</string>
+    <string name="unit_format">%1\$s %2\$s</string>
+
+    <!-- Settings Screen -->
+    <string name="setting_screen_title">Settings</string>
+    <string name="setting_screen_route">settingsScreen</string>
+    <string name="setting_sub_title">Appearance</string>
+    <string name="dark_mode_toggle_text">Dark Mode</string>
+    <string name="dark_mode_toggle_description">Toggle Dark Mode</string>
+
+    <!-- Contact Screen -->
+    <string name="contact_screen_title">Contact</string>
+    <string name="contact_screen_route">contactScreen</string>
+    <string name="send_email_button">Send Email</string>
+    <string name="subject_text_field">Subject</string>
+    <string name="message_text_field">Message</string>
+    <string name="ippc_link">https://www.ippc.no/ippc/index.jsp</string>
+
+    <!-- Favorites Screen -->
+    <string name="favorites_screen_title">Favorites</string>
+    <string name="favorites_screen_route">favoriteScreen</string>
+    <string name="remove_favorite">Remove from favorites</string>
+    <string name="add_favorite">Add to favorites</string>
+    <string name="location_info">Lat: %1$s, Lon: %2$s, Altitude: %3$sm</string>
+
+    <!-- TopBar -->
+    <string name="back_button_description">Go back</string>
+    <string name="settings_button_description">Go to settings</string>
+
+    <!-- BottomBar -->
+    <string name="home_button_text">Home</string>
+    <string name="home_button_description">Go to home screen</string>
+    <string name="input_button_text">Input</string>
+    <string name="input_button_description">Go to input screen</string>
+    <string name="map_button_text">Map</string>
+    <string name="map_button_description">Go to map screen</string>
+    <string name="favorites_button_text">Favorites</string>
+    <string name="favorites_button_description">Go to favorite screen</string>
+    <string name="contact_button_text">Contact</string>
+    <string name="contact_button_description">Go to contact screen</string>
 </resources>
